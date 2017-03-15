@@ -14,4 +14,6 @@
 
 - (void)eat;
 
+- (void)sleep;
+
 @end

@@ -14,4 +14,8 @@
     NSLog(@"%@ 正在吃...", _name);
 }
 
+- (void)sleep {
+    NSLog(@"%@ 正在睡...", _name);
+}
+
 @end
