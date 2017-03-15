@@ -13,15 +13,6 @@
 		46BC55581E73FEE20062C6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BC55561E73FEE20062C6EE /* Main.storyboard */; };
 		46BC555A1E73FEE20062C6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BC55591E73FEE20062C6EE /* Assets.xcassets */; };
 		46BC555D1E73FEE20062C6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BC555B1E73FEE20062C6EE /* LaunchScreen.storyboard */; };
-		46F4F0ED1E792A2500E1BA6C /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0DC1E792A2500E1BA6C /* NSArray+Category.m */; };
-		46F4F0EE1E792A2500E1BA6C /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0DE1E792A2500E1BA6C /* NSDate+Category.m */; };
-		46F4F0EF1E792A2500E1BA6C /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0E01E792A2500E1BA6C /* NSDictionary+Category.m */; };
-		46F4F0F01E792A2500E1BA6C /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0E21E792A2500E1BA6C /* NSString+Category.m */; };
-		46F4F0F11E792A2500E1BA6C /* NSUserDefaults+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0E41E792A2500E1BA6C /* NSUserDefaults+Category.m */; };
-		46F4F0F21E792A2500E1BA6C /* QMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0E61E792A2500E1BA6C /* QMView.m */; };
-		46F4F0F31E792A2500E1BA6C /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0E81E792A2500E1BA6C /* UIImage+Category.m */; };
-		46F4F0F41E792A2500E1BA6C /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0EA1E792A2500E1BA6C /* UIView+Category.m */; };
-		46F4F0F51E792A2500E1BA6C /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F4F0EC1E792A2500E1BA6C /* UIViewController+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,24 +26,6 @@
 		46BC55591E73FEE20062C6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46BC555C1E73FEE20062C6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46BC555E1E73FEE20062C6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46F4F0DB1E792A2500E1BA6C /* NSArray+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Category.h"; sourceTree = "<group>"; };
-		46F4F0DC1E792A2500E1BA6C /* NSArray+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Category.m"; sourceTree = "<group>"; };
-		46F4F0DD1E792A2500E1BA6C /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
-		46F4F0DE1E792A2500E1BA6C /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
-		46F4F0DF1E792A2500E1BA6C /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
-		46F4F0E01E792A2500E1BA6C /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
-		46F4F0E11E792A2500E1BA6C /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
-		46F4F0E21E792A2500E1BA6C /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
-		46F4F0E31E792A2500E1BA6C /* NSUserDefaults+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Category.h"; sourceTree = "<group>"; };
-		46F4F0E41E792A2500E1BA6C /* NSUserDefaults+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Category.m"; sourceTree = "<group>"; };
-		46F4F0E51E792A2500E1BA6C /* QMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMView.h; sourceTree = "<group>"; };
-		46F4F0E61E792A2500E1BA6C /* QMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMView.m; sourceTree = "<group>"; };
-		46F4F0E71E792A2500E1BA6C /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
-		46F4F0E81E792A2500E1BA6C /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
-		46F4F0E91E792A2500E1BA6C /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
-		46F4F0EA1E792A2500E1BA6C /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
-		46F4F0EB1E792A2500E1BA6C /* UIViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
-		46F4F0EC1E792A2500E1BA6C /* UIViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,24 +83,6 @@
 		46BC55641E73FF070062C6EE /* QMAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				46F4F0DB1E792A2500E1BA6C /* NSArray+Category.h */,
-				46F4F0DC1E792A2500E1BA6C /* NSArray+Category.m */,
-				46F4F0DD1E792A2500E1BA6C /* NSDate+Category.h */,
-				46F4F0DE1E792A2500E1BA6C /* NSDate+Category.m */,
-				46F4F0DF1E792A2500E1BA6C /* NSDictionary+Category.h */,
-				46F4F0E01E792A2500E1BA6C /* NSDictionary+Category.m */,
-				46F4F0E11E792A2500E1BA6C /* NSString+Category.h */,
-				46F4F0E21E792A2500E1BA6C /* NSString+Category.m */,
-				46F4F0E31E792A2500E1BA6C /* NSUserDefaults+Category.h */,
-				46F4F0E41E792A2500E1BA6C /* NSUserDefaults+Category.m */,
-				46F4F0E51E792A2500E1BA6C /* QMView.h */,
-				46F4F0E61E792A2500E1BA6C /* QMView.m */,
-				46F4F0E71E792A2500E1BA6C /* UIImage+Category.h */,
-				46F4F0E81E792A2500E1BA6C /* UIImage+Category.m */,
-				46F4F0E91E792A2500E1BA6C /* UIView+Category.h */,
-				46F4F0EA1E792A2500E1BA6C /* UIView+Category.m */,
-				46F4F0EB1E792A2500E1BA6C /* UIViewController+Category.h */,
-				46F4F0EC1E792A2500E1BA6C /* UIViewController+Category.m */,
 			);
 			path = QMAdditions;
 			sourceTree = "<group>";
@@ -203,18 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F4F0F01E792A2500E1BA6C /* NSString+Category.m in Sources */,
 				46BC55551E73FEE20062C6EE /* ViewController.m in Sources */,
-				46F4F0F21E792A2500E1BA6C /* QMView.m in Sources */,
-				46F4F0F41E792A2500E1BA6C /* UIView+Category.m in Sources */,
-				46F4F0F51E792A2500E1BA6C /* UIViewController+Category.m in Sources */,
 				46BC55521E73FEE20062C6EE /* AppDelegate.m in Sources */,
-				46F4F0EE1E792A2500E1BA6C /* NSDate+Category.m in Sources */,
-				46F4F0ED1E792A2500E1BA6C /* NSArray+Category.m in Sources */,
-				46F4F0F11E792A2500E1BA6C /* NSUserDefaults+Category.m in Sources */,
-				46F4F0EF1E792A2500E1BA6C /* NSDictionary+Category.m in Sources */,
 				46BC554F1E73FEE20062C6EE /* main.m in Sources */,
-				46F4F0F31E792A2500E1BA6C /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
