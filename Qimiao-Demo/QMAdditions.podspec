@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QMAdditions"
-  s.version      = "0.0.3"
+  s.version      = "0.1.0"
   s.summary      = "MyAdditions"
   s.homepage     = "https://github.com/QiMiaoer/QMAdditions"
   s.license      = "MIT"

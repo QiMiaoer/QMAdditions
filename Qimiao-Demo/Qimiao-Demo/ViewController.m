@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "Person.h"
 
 @interface ViewController ()
 
@@ -19,9 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    Person *person = [Person new];
-    person.name = @"小喵";
-    [person eat];
 }
 
 

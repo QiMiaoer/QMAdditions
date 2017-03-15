@@ -7,6 +7,9 @@
 //
 
 #import "NSDate+Category.h"
+#import "NSString+Category.h"
+
+#define DateFormat @"yyyy-MM-dd HH:mm:ss.SSS"
 
 @implementation NSDate (Category)
 

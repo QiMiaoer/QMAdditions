@@ -8,6 +8,13 @@
 
 #import "UIView+Category.h"
 
+#define iPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define iPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define iPhone4 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )480) < DBL_EPSILON )
+#define iPhone5 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )568) < DBL_EPSILON )
+#define iPhone6 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )667) < DBL_EPSILON )
+#define iPhone6Plus (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )960) < DBL_EPSILON)
+
 @implementation UIView (Category)
 
 + (CGFloat)getScreenScale {
