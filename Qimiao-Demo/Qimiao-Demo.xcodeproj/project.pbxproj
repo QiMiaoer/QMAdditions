@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460AA2F01E7A1D950051F530 /* UIButton+QMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA2EF1E7A1D950051F530 /* UIButton+QMAdditions.m */; };
+		460AA2F31E7A28C10051F530 /* UILabel+QMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA2F21E7A28C10051F530 /* UILabel+QMAdditions.m */; };
+		460AA2F91E7A2F0E0051F530 /* UIImage+QMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA2F81E7A2F0E0051F530 /* UIImage+QMAdditions.m */; };
+		460AA2FE1E7A3D180051F530 /* NSUserDefaults+QMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA2FD1E7A3D180051F530 /* NSUserDefaults+QMAdditions.m */; };
+		460AA3041E7A3FA00051F530 /* NSObject+QMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA3031E7A3FA00051F530 /* NSObject+QMAdditions.m */; };
+		460AA3071E7A5B000051F530 /* UIColor+QMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA3061E7A5B000051F530 /* UIColor+QMAdditions.m */; };
+		460AA30A1E7A62BC0051F530 /* QMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA3091E7A62BC0051F530 /* QMView.m */; };
+		460AA30D1E7A66830051F530 /* UIViewController+QMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA30C1E7A66830051F530 /* UIViewController+QMAdditions.m */; };
+		460AA3101E7A6A620051F530 /* NSString+QMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 460AA30F1E7A6A620051F530 /* NSString+QMAdditions.m */; };
 		46BC554F1E73FEE20062C6EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BC554E1E73FEE20062C6EE /* main.m */; };
 		46BC55521E73FEE20062C6EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BC55511E73FEE20062C6EE /* AppDelegate.m */; };
 		46BC55551E73FEE20062C6EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BC55541E73FEE20062C6EE /* ViewController.m */; };
@@ -16,6 +25,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		460AA2ED1E7A1D430051F530 /* QMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMAdditions.h; sourceTree = "<group>"; };
+		460AA2EE1E7A1D950051F530 /* UIButton+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+QMAdditions.h"; sourceTree = "<group>"; };
+		460AA2EF1E7A1D950051F530 /* UIButton+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QMAdditions.m"; sourceTree = "<group>"; };
+		460AA2F11E7A28C10051F530 /* UILabel+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+QMAdditions.h"; sourceTree = "<group>"; };
+		460AA2F21E7A28C10051F530 /* UILabel+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+QMAdditions.m"; sourceTree = "<group>"; };
+		460AA2F71E7A2F0E0051F530 /* UIImage+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QMAdditions.h"; sourceTree = "<group>"; };
+		460AA2F81E7A2F0E0051F530 /* UIImage+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QMAdditions.m"; sourceTree = "<group>"; };
+		460AA2FC1E7A3D180051F530 /* NSUserDefaults+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+QMAdditions.h"; sourceTree = "<group>"; };
+		460AA2FD1E7A3D180051F530 /* NSUserDefaults+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+QMAdditions.m"; sourceTree = "<group>"; };
+		460AA3021E7A3FA00051F530 /* NSObject+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QMAdditions.h"; sourceTree = "<group>"; };
+		460AA3031E7A3FA00051F530 /* NSObject+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QMAdditions.m"; sourceTree = "<group>"; };
+		460AA3051E7A5B000051F530 /* UIColor+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QMAdditions.h"; sourceTree = "<group>"; };
+		460AA3061E7A5B000051F530 /* UIColor+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QMAdditions.m"; sourceTree = "<group>"; };
+		460AA3081E7A62BC0051F530 /* QMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMView.h; sourceTree = "<group>"; };
+		460AA3091E7A62BC0051F530 /* QMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMView.m; sourceTree = "<group>"; };
+		460AA30B1E7A66830051F530 /* UIViewController+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QMAdditions.h"; sourceTree = "<group>"; };
+		460AA30C1E7A66830051F530 /* UIViewController+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QMAdditions.m"; sourceTree = "<group>"; };
+		460AA30E1E7A6A620051F530 /* NSString+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QMAdditions.h"; sourceTree = "<group>"; };
+		460AA30F1E7A6A620051F530 /* NSString+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QMAdditions.m"; sourceTree = "<group>"; };
 		46BC554A1E73FEE20062C6EE /* Qimiao-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qimiao-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BC554E1E73FEE20062C6EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46BC55501E73FEE20062C6EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +111,25 @@
 		46BC55641E73FF070062C6EE /* QMAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				460AA2ED1E7A1D430051F530 /* QMAdditions.h */,
+				460AA2EE1E7A1D950051F530 /* UIButton+QMAdditions.h */,
+				460AA2EF1E7A1D950051F530 /* UIButton+QMAdditions.m */,
+				460AA2F11E7A28C10051F530 /* UILabel+QMAdditions.h */,
+				460AA2F21E7A28C10051F530 /* UILabel+QMAdditions.m */,
+				460AA2F71E7A2F0E0051F530 /* UIImage+QMAdditions.h */,
+				460AA2F81E7A2F0E0051F530 /* UIImage+QMAdditions.m */,
+				460AA2FC1E7A3D180051F530 /* NSUserDefaults+QMAdditions.h */,
+				460AA2FD1E7A3D180051F530 /* NSUserDefaults+QMAdditions.m */,
+				460AA30E1E7A6A620051F530 /* NSString+QMAdditions.h */,
+				460AA30F1E7A6A620051F530 /* NSString+QMAdditions.m */,
+				460AA3021E7A3FA00051F530 /* NSObject+QMAdditions.h */,
+				460AA3031E7A3FA00051F530 /* NSObject+QMAdditions.m */,
+				460AA3051E7A5B000051F530 /* UIColor+QMAdditions.h */,
+				460AA3061E7A5B000051F530 /* UIColor+QMAdditions.m */,
+				460AA30B1E7A66830051F530 /* UIViewController+QMAdditions.h */,
+				460AA30C1E7A66830051F530 /* UIViewController+QMAdditions.m */,
+				460AA3081E7A62BC0051F530 /* QMView.h */,
+				460AA3091E7A62BC0051F530 /* QMView.m */,
 			);
 			path = QMAdditions;
 			sourceTree = "<group>";
@@ -159,8 +206,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BC55551E73FEE20062C6EE /* ViewController.m in Sources */,
+				460AA3041E7A3FA00051F530 /* NSObject+QMAdditions.m in Sources */,
 				46BC55521E73FEE20062C6EE /* AppDelegate.m in Sources */,
+				460AA30D1E7A66830051F530 /* UIViewController+QMAdditions.m in Sources */,
 				46BC554F1E73FEE20062C6EE /* main.m in Sources */,
+				460AA3101E7A6A620051F530 /* NSString+QMAdditions.m in Sources */,
+				460AA30A1E7A62BC0051F530 /* QMView.m in Sources */,
+				460AA2F01E7A1D950051F530 /* UIButton+QMAdditions.m in Sources */,
+				460AA2F31E7A28C10051F530 /* UILabel+QMAdditions.m in Sources */,
+				460AA3071E7A5B000051F530 /* UIColor+QMAdditions.m in Sources */,
+				460AA2F91E7A2F0E0051F530 /* UIImage+QMAdditions.m in Sources */,
+				460AA2FE1E7A3D180051F530 /* NSUserDefaults+QMAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
