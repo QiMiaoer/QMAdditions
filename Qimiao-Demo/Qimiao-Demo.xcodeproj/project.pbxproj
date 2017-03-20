@@ -44,6 +44,7 @@
 		460AA30C1E7A66830051F530 /* UIViewController+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QMAdditions.m"; sourceTree = "<group>"; };
 		460AA30E1E7A6A620051F530 /* NSString+QMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QMAdditions.h"; sourceTree = "<group>"; };
 		460AA30F1E7A6A620051F530 /* NSString+QMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QMAdditions.m"; sourceTree = "<group>"; };
+		463A08D31E7F7BA30071DB60 /* QMCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMCommonDefine.h; sourceTree = "<group>"; };
 		46BC554A1E73FEE20062C6EE /* Qimiao-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qimiao-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BC554E1E73FEE20062C6EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46BC55501E73FEE20062C6EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				460AA2ED1E7A1D430051F530 /* QMAdditions.h */,
+				463A08D31E7F7BA30071DB60 /* QMCommonDefine.h */,
 				460AA2EE1E7A1D950051F530 /* UIButton+QMAdditions.h */,
 				460AA2EF1E7A1D950051F530 /* UIButton+QMAdditions.m */,
 				460AA2F11E7A28C10051F530 /* UILabel+QMAdditions.h */,

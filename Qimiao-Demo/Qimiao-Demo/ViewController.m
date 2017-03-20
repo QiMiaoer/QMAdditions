@@ -25,6 +25,7 @@
 //    [self testUserDefau];
 //    [self testJson];
     NSLog(@"%@" , [@"qwer" qm_MD5]);
+    DLog(@"%@", CurrentLanguage);
 }
 
 - (void)testJson {

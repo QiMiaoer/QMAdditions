@@ -7,9 +7,30 @@
 //
 
 #import "NSObject+QMAdditions.h"
+#import "QMCommonDefine.h"
 #import <objc/runtime.h>
 
 @implementation NSObject (QMAdditions)
+
++ (CGFloat)getScreenScale {
+    CGFloat _screenScale = 0;
+    if (_screenScale == 0) {
+        if (iPhone6) {
+            _screenScale = 0.5;
+        } else if (iPhone4) {
+            _screenScale = 0.5 * 480 / 667;
+        } else if (iPhone5) {
+            _screenScale = 0.5 * 568 / 667;
+        } else if (iPhone6Plus) {
+            _screenScale = 0.5 * 736 / 667;
+        } else if (iPad){
+            _screenScale = 0.35;//简单处理
+        }else {
+            _screenScale = 0.5;
+        }
+    }
+    return _screenScale;
+}
 
 + (NSString *)qm_transitionToJsonWithObject:(id)object {
     NSString *json = @"";

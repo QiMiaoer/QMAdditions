@@ -17,5 +17,6 @@
 #import "NSObject+QMAdditions.h"
 #import "UIColor+QMAdditions.h"
 #import "UIViewController+QMAdditions.h"
+#import "QMCommonDefine.h"
 
 #endif /* QMAdditions_h */

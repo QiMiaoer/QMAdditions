@@ -6,9 +6,14 @@
 //  Copyright © 2017年 其妙. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#define GetScreenScale [UIView getScreenScale]
 
 @interface NSObject (QMAdditions)
+
+/// 屏幕分辨率
++ (CGFloat)getScreenScale;
 
 /// 转换成字符串
 + (NSString *)qm_transitionToJsonWithObject:(id)object;
