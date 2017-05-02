@@ -22,6 +22,30 @@
     return [result lowercaseString];
 }
 
+- (CGFloat)fileSize {
+    NSFileManager *manager = [NSFileManager defaultManager];
+    BOOL isDir = NO;
+    BOOL exists = [manager fileExistsAtPath:self isDirectory:&isDir];
+    if (!exists) {
+        return 0;
+    }
+    if (isDir) {
+        NSArray *subpaths = [manager subpathsAtPath:self];
+        NSInteger totalByteSize = 0;
+        for (NSString *subpath in subpaths) {
+            NSString *fullSubpath = [self stringByAppendingPathComponent:subpath];
+            BOOL dir = NO;
+            [manager fileExistsAtPath:fullSubpath isDirectory:&dir];
+            if (!dir) {
+                totalByteSize += [[manager attributesOfItemAtPath:fullSubpath error:nil] fileSize];
+            }
+        }
+        return totalByteSize / 1024.0 / 1024.0;
+    } else {
+        return [[manager attributesOfItemAtPath:self error:nil] fileSize] / 1024.0 / 1024.0;
+    }
+}
+
 - (BOOL)qm_validQQNumber {
     NSString *regex = @"[1-9][0-9]\{4,\\}";
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];

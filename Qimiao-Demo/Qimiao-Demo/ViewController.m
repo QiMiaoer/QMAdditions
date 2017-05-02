@@ -20,12 +20,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 //    self.view.backgroundColor = [UIColor orangeColor];
 //    [self testButton];
-    [self testLabel];
-    [self testImage];
+//    [self testLabel];
+//    [self testImage];
 //    [self testUserDefau];
 //    [self testJson];
-    NSLog(@"%@" , [@"qwer" qm_MD5]);
-    DLog(@"%@", CurrentLanguage);
+//    NSLog(@"%@" , [@"qwer" qm_MD5]);
+//    DLog(@"%@", CurrentLanguage);
+    
+    DLog(@"%.2f", [@"/Users/zyx/Desktop/VR系列 " fileSize]);
 }
 
 - (void)testJson {

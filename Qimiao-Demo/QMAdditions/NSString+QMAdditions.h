@@ -6,12 +6,15 @@
 //  Copyright © 2017年 其妙. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (QMAdditions)
 
 /// MD5加密
 - (NSString *)qm_MD5;
+
+/// 计算文件或文件夹大小
+- (CGFloat)fileSize;
 
 /// 判断QQ号
 - (BOOL)qm_validQQNumber;
